@@ -54,6 +54,10 @@ x repo card jqlang/jq              # colored table in a terminal
 x repo card jqlang/jq > card.yml   # bare YAML when piped or redirected
 ```
 
+<img width="678" alt="x repo card jqlang/jq — ABOUT, TIMELINE, POPULARITY, LANGUAGES and RECENT ACTIVITY sections rendered as a colored table in the terminal" src="https://github.com/user-attachments/assets/5f172f39-7207-4e13-8407-5b5697f9a3df" />
+
+The YAML on the right of that pipe is exactly what ends up in `data/`.
+
 ---
 
 # x-cmd-install 👋
@@ -103,3 +107,7 @@ x repo card jqlang/jq > card.yml   # bare YAML when piped or redirected
 x repo card jqlang/jq              # 终端里输出彩色表格
 x repo card jqlang/jq > card.yml   # 管道或重定向时输出裸 YAML
 ```
+
+<img width="678" alt="x repo card jqlang/jq —— 终端里渲染的彩色表格，包含 ABOUT、TIMELINE、POPULARITY、LANGUAGES、RECENT ACTIVITY 几个区段" src="https://github.com/user-attachments/assets/5f172f39-7207-4e13-8407-5b5697f9a3df" />
+
+管道右边的 YAML，就是 `data/` 里那份。
